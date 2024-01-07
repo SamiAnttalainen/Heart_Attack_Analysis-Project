@@ -1,4 +1,2 @@
 # Heart_Attack_Analysis_Data_Science_Project
-Heart attack data analysis and XGBClassififaction modeling. The project tries to analyze what might be the main causes for the heart attacks. The project also has classification modeling that tries to predict correctly from the given data that who has the high or low risk to get the heart attack.
-
-© Sami Anttalainen
+Heart attack data analysis and XGBClassififaction modeling. The first goal of the project is to analyze what might be the main causes for heart attacks. The second goal of the project is to build a classifier model that classifies correctly from the data which person has high/low risk chance for heart attacks. This project probably needs more feature engineering to give model more informative information which helps at classification. I'll update this project when I have some clear improvements to show. © Sami Anttalainen
