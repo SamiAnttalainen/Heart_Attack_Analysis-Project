@@ -1,2 +1,11 @@
-# Heart_Attack_Analysis_Data_Science_Project
-Heart attack data analysis and XGBClassififaction modeling. The first goal of the project is to analyze what might be the main causes for heart attacks. The second goal of the project is to build a classifier model that classifies correctly from the data which person has high/low risk chance for heart attacks. This project probably needs more feature engineering to give model more informative information which helps at classification. I'll update this project when I have some clear improvements to show. © Sami Anttalainen
+# Heart Attack Data Science Project
+
+## Data analysis part
+
+In the data analusis part we are going to explore the given heart attack dataset and try to find some useful information for the classification modeling task. First, we are just going check if the data is clean and does not have any missing values in the rows. If there appears to be missing data in the rows, then we are going to drop those rows, because they are just going to add noise to the dataset and make classification harder. Then we are going to check how much variance there are between features and try to analyze from that some of the important features. After that we are going to just explore different feature distributions and look for outliers which might give some information for the classification modeling. Then we are trying to find some correlations between some features, which might help us in the classification part.
+
+## Classification part
+
+In the classification part we are going to use XGBoost Classifier for our classification and HyperOpt's Optimizer for hyperparameter tuning. First we are going to split data into training and testing data and scale the features. After that we are going to test the base model performance. After that we are going to do some feature engineering and see if we can improve the base model performance with it. When we have completed the feature engineering we start optimizing the model with HyperOpt's optimizer by fine tuning hyperparameters.
+
+© Sami Anttalainen
